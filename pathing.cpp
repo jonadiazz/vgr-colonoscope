@@ -80,7 +80,7 @@ int main(int, char**)
    
     blur( frame, frame, Size(3,3));
 
-    frame = frame > 50;
+    frame = frame > 55;
     //findContours(frame,contours,hierarchy,RETR_TREE,CHAIN_APPROX_SIMPLE, Point(0,0));
     //frame = frame < 60;
     /* uncomment next line when ready with trackbarslide */
