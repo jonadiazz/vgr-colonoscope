@@ -1,0 +1,17 @@
+#include <string>
+
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include "opencv2/core/core.hpp"
+#include <iostream>
+#include <fstream>
+#include <stdio.h>
+
+using namespace std;
+using namespace cv;
+
+int g_slider_position = 0;
+int g_run = 1; g_dontset = 0;
+
+cv::VideoCapture g_cap;
+
